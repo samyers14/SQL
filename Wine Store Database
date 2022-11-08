@@ -1,0 +1,23 @@
+--create new table for store items
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, color TEXT, shelf INTEGER);
+
+--add store items to table
+
+INSERT INTO store VALUES
+(1, "Chardonnay", 35, "white", 1),
+(2, "Sauvingon Blanc", 15, "white", 2),
+(3, "Pinot Blanc", 30, "white", 1),
+(4, "Pinot Grigio", 21, "white", 2),
+(5, "Albarino", 28, "white", 2),
+(6, "Pinot Noir", 35, "rose", 3),
+(7, "Pet Nat", 41, "rose", 3),
+(8, "Pinot Noir", 31, "red", 4),
+(9, "Gamay", 16, "red", 4),
+(10, "Syrah", 55, "red", 5),
+(11, "GSM", 22, "red", 5),
+(12, "Tempranillo", 18, "red", 6),
+(13, "Sangiovase", 26, "red", 6),
+(14, "Riesling", 32, "white", 2),
+(15, "Chardonnay", 65, "sparkling", 1)
+;
